@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    padding: 10px;
+    width: 100%;
+    font-size: 70% ;
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#b_left{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+#logo {
+    max-width: 12%;
+    height: auto;
+}
